@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ComboBox fx:id="comboBoxList" layoutX="36.0" layoutY="50.0" onAction="#comboBoxAction" prefWidth="150.0" promptText="Выберете таблицу: " />
+      <Label fx:id="statusid" layoutX="83.0" layoutY="136.0" text="Проверка : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPath" layoutX="300.0" layoutY="50.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="478.0" layoutY="50.0" mnemonicParsing="false" onAction="#buttonPath" text="Button">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="362.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonCreateFile" text="Создать файл" />
+   </children>
+</Pane>
